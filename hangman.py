@@ -45,4 +45,13 @@ def play(word):
             guessed_words.append(guess)
         else:
             guessed = True
-            word_completion = word               
+            word_completion = word 
+    else:
+        print("Not a valid guess.")
+    print(display_hangman(tries))
+    print(word_completion)
+    print("\n")
+if guessed:
+    print("Congrats, you guessed the word! You win!")
+else:
+    print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
