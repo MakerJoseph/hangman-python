@@ -130,7 +130,7 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
-
+#continue playing
 def main():
     word = get_word()
     play(word)
