@@ -1,7 +1,7 @@
 import random
 from words import word_list
 
-
+#getting the word from the list
 def get_word():
     word = random.choice(word_list)
     return word.upper()
